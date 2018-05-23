@@ -1,4 +1,5 @@
 require 'yaml'
+require 'pry'
 
 def load_library(file_path)
  library = YAML.load_file(file_path)
@@ -7,7 +8,8 @@ def load_library(file_path)
   result[get_meaning][emoticon[1]] = meaning
   result[get_emoticon][emoticon[0]] = emoticon[1]
 end
-  
+  result
+  binding.pry
 end
 
 def get_japanese_emoticon
