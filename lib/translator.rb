@@ -11,7 +11,7 @@ end
   result
 end
 
-def get_japanese_emoticon(file_path, english_emoticon)
+def get_japanese_emoticon(file_path = ".lib/emoticons.yml", english_emoticon)
   # code goes here
 end
 
