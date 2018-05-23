@@ -2,7 +2,8 @@ require 'yaml'
 
 def load_library(file_path)
   path
-  load_meaning = {}
+  get_meaning = {}
+  get_emoticon = {}
   
 end
 
