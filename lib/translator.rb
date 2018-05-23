@@ -1,7 +1,7 @@
-require "emoticons.yaml"
+require "yaml"
 
-def (emoticons.yaml)
-  emoticons.yaml
+def (path)
+  path
 end
 
 def get_japanese_emoticon
