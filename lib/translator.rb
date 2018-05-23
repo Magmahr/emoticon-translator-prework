@@ -1,6 +1,6 @@
-require "yaml"
+require ""./lib/emoticons.yml""
 
-def load_library(path)
+def load_library("./lib/emoticons.yml")
   path
 end
 
